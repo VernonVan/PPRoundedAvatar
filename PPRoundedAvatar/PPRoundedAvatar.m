@@ -10,7 +10,6 @@
 #import "PPRoundedAvatar.h"
 #import "UIImage+PPRoundedAvatar.h"
 
-IB_DESIGNABLE
 @implementation PPRoundedAvatar {
     BOOL _isNeedTransform;
 }

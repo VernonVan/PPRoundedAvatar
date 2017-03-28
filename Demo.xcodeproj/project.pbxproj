@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD2F29BF1E85258900D15352 /* avatar2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD2F29BE1E85258800D15352 /* avatar2.jpeg */; };
 		AD588E7E1E83C69500ABD1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD588E7D1E83C69500ABD1E1 /* main.m */; };
 		AD588E811E83C69500ABD1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD588E801E83C69500ABD1E1 /* AppDelegate.m */; };
-		AD588E841E83C69500ABD1E1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD588E831E83C69500ABD1E1 /* FirstViewController.m */; };
 		AD588E871E83C69500ABD1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD588E851E83C69500ABD1E1 /* Main.storyboard */; };
 		AD588E891E83C69500ABD1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD588E881E83C69500ABD1E1 /* Assets.xcassets */; };
 		AD588E8C1E83C69500ABD1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD588E8A1E83C69500ABD1E1 /* LaunchScreen.storyboard */; };
 		AD588E961E83C7C100ABD1E1 /* PPRoundedAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD588E951E83C7C100ABD1E1 /* PPRoundedAvatar.m */; };
 		AD588E991E83C80800ABD1E1 /* UIImage+PPRoundedAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD588E981E83C80800ABD1E1 /* UIImage+PPRoundedAvatar.m */; };
 		AD588EA51E83D4A600ABD1E1 /* avatar1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD588EA21E83D4A600ABD1E1 /* avatar1.jpeg */; };
+		AD892CA71E8A33140036BFC6 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD892CA61E8A33140036BFC6 /* background.jpeg */; };
+		AD892CAA1E8A37050036BFC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD892CA91E8A37050036BFC6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD2F29BE1E85258800D15352 /* avatar2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar2.jpeg; sourceTree = "<group>"; };
 		AD588E791E83C69500ABD1E1 /* PPRoundedAvatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPRoundedAvatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD588E7D1E83C69500ABD1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD588E7F1E83C69500ABD1E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD588E801E83C69500ABD1E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD588E821E83C69500ABD1E1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		AD588E831E83C69500ABD1E1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		AD588E861E83C69500ABD1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD588E881E83C69500ABD1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD588E8B1E83C69500ABD1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +33,9 @@
 		AD588E971E83C80800ABD1E1 /* UIImage+PPRoundedAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PPRoundedAvatar.h"; sourceTree = "<group>"; };
 		AD588E981E83C80800ABD1E1 /* UIImage+PPRoundedAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PPRoundedAvatar.m"; sourceTree = "<group>"; };
 		AD588EA21E83D4A600ABD1E1 /* avatar1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar1.jpeg; sourceTree = "<group>"; };
+		AD892CA61E8A33140036BFC6 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		AD892CA81E8A37050036BFC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD892CA91E8A37050036BFC6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 		AD588E7B1E83C69500ABD1E1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				AD588E821E83C69500ABD1E1 /* FirstViewController.h */,
-				AD588E831E83C69500ABD1E1 /* FirstViewController.m */,
+				AD892CA81E8A37050036BFC6 /* ViewController.h */,
+				AD892CA91E8A37050036BFC6 /* ViewController.m */,
 				AD588E931E83C6ED00ABD1E1 /* PPRoundedAvatar */,
 				AD588E9C1E83D1B700ABD1E1 /* images */,
 				AD588E7C1E83C69500ABD1E1 /* Supporting Files */,
@@ -106,8 +106,8 @@
 		AD588E9C1E83D1B700ABD1E1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AD892CA61E8A33140036BFC6 /* background.jpeg */,
 				AD588EA21E83D4A600ABD1E1 /* avatar1.jpeg */,
-				AD2F29BE1E85258800D15352 /* avatar2.jpeg */,
 			);
 			name = images;
 			path = ../images;
@@ -172,9 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD892CA71E8A33140036BFC6 /* background.jpeg in Resources */,
 				AD588EA51E83D4A600ABD1E1 /* avatar1.jpeg in Resources */,
 				AD588E8C1E83C69500ABD1E1 /* LaunchScreen.storyboard in Resources */,
-				AD2F29BF1E85258900D15352 /* avatar2.jpeg in Resources */,
 				AD588E891E83C69500ABD1E1 /* Assets.xcassets in Resources */,
 				AD588E871E83C69500ABD1E1 /* Main.storyboard in Resources */,
 			);
@@ -188,10 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD588E961E83C7C100ABD1E1 /* PPRoundedAvatar.m in Sources */,
-				AD588E841E83C69500ABD1E1 /* FirstViewController.m in Sources */,
 				AD588E811E83C69500ABD1E1 /* AppDelegate.m in Sources */,
 				AD588E7E1E83C69500ABD1E1 /* main.m in Sources */,
 				AD588E991E83C80800ABD1E1 /* UIImage+PPRoundedAvatar.m in Sources */,
+				AD892CAA1E8A37050036BFC6 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

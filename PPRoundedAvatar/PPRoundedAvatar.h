@@ -10,15 +10,15 @@
 
 @interface PPRoundedAvatar : UIButton
 
-@property (nonatomic, strong) IBInspectable UIImage *avatarImage;
+@property (nonatomic, strong) UIImage *avatarImage;
 
-@property (nonatomic, strong) IBInspectable UIColor *imageBackgroundColor;
+@property (nonatomic, strong) UIColor *imageBackgroundColor;
 
-@property (nonatomic, assign) IBInspectable BOOL borderHidden;
+@property (nonatomic, assign) BOOL borderHidden;
 
-@property (nonatomic, strong) IBInspectable UIColor *borderColor;
+@property (nonatomic, strong) UIColor *borderColor;
 
-@property (nonatomic, assign) IBInspectable NSUInteger borderWidth;
+@property (nonatomic, assign) NSUInteger borderWidth;
 
 - (instancetype)initWithImage:(UIImage *)image;
 
