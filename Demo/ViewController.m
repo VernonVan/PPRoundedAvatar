@@ -21,7 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     self.avatarView1.avatarImage = [UIImage imageNamed:@"avatar1.jpeg"];
     self.avatarView1.borderWidth = 5.0;
     self.avatarView1.borderColor = [UIColor colorWithRed:0.45 green:0.78 blue:0.42 alpha:1.0];
