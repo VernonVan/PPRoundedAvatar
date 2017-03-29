@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "A high-performance rounded avatar control."
 
   s.description  = <<-DESC
+                    A high-performance rounded avatar control(高性能的异步裁剪的圆角头像控件).
                    DESC
 
   s.homepage     = "https://github.com/VernonVan/PPRoundedAvatar"
